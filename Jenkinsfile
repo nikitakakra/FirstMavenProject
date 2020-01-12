@@ -3,6 +3,6 @@ node{
 	   git 'https://github.com/nikitakakra/FirstMavenProject/'
 	}
 	stage('compile package'){
-	   sh 'mvn package'
+	  bat 'mvn package'
 	}
 }
